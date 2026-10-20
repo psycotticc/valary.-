@@ -136,7 +136,7 @@ local function GetParentGui()
     return LocalPlayer:WaitForChild("PlayerGui")
 end
 
-local Library = { Flags = {}, Icons = Icons, Theme = Theme, ToggleKey = Enum.KeyCode.Insert }
+local Library = { Flags = {}, Icons = Icons, Theme = Theme, ToggleKey = Enum.KeyCode.K }
 Library.__index = Library
 
 function Library:CreateWindow(cfg)
